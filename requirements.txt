@@ -1,0 +1,7 @@
+xarray
+s3fs
+boto3
+pywbgt
+matplotlib
+netCDF4
+cfgrib
