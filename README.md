@@ -2,13 +2,13 @@
 
 This repository contains a complete pipeline to calculate Wet Bulb Globe Temperature (WBGT) using NASA’s NLDAS-3 meteorological data. The WBGT is a comprehensive index for assessing heat stress by accounting for temperature, humidity, solar radiation, and wind.
 
-## 📦 Features
+## Features
 
-- ✅ Access hourly NLDAS-3 forcing data from AWS
-- 🗺️ Coarsen spatial resolution to 5 km
-- 🌡 Calculate WBGT using the Liljegren et al. (2008) model
-- 📈 Save daily outputs and summary statistics
-- 📊 Visualize WBGT spatial maps
+- Access hourly NLDAS-3 forcing data from AWS
+- Coarsen spatial resolution to 5 km
+- Calculate WBGT using the Liljegren et al. (2008) model
+- Save daily outputs and summary statistics
+- Visualize WBGT spatial maps
 
 ## 📂 Project Structure
 
@@ -23,7 +23,7 @@ This repository contains a complete pipeline to calculate Wet Bulb Globe Tempera
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Install dependencies:
 ```bash
@@ -39,7 +39,7 @@ python wbgt_pipeline_master.py
    - One `.nc` file per day
    - `wbgt_daily_summary.csv` for mean WBGT values
 
-## 📚 References
+## References
 
 - [NASA NLDAS-3](https://ldas.gsfc.nasa.gov/nldas/v3)
 - [Liljegren et al. 2008](https://pubmed.ncbi.nlm.nih.gov/18668494/)
