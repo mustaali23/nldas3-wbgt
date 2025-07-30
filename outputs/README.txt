@@ -1,0 +1,1 @@
+Place to store output NetCDF (.nc), PNG plots, and summary CSVs for showcase and deliverables.
