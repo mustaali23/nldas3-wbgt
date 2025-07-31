@@ -3,7 +3,7 @@ import xarray as xr
 
 ds = xr.open_dataset("nldas3_5km.nc")  # Must contain necessary variables
 
-# Replace variable names as needed to match your dataset
+# Replace variable names as needed to match dataset
 tair = ds['temperature'].isel(time=0)
 rh = ds['humidity'].isel(time=0)
 wind = ds['wind'].isel(time=0)
